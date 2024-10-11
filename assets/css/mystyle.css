@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap");
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f9f3f3;
+}
+.banner {
+  background-image: url("../img/us/banner.png"); /* Ganti dengan link gambar kamu */
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* 100% tinggi layar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #faf0ff;
+  text-align: center;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Persegi panjang */
+.rectangle {
+  position: relative; /* Diubah dari absolute menjadi relative */
+  width: 80%; /* Lebar 80% dari layar */
+  height: 150px;
+  background-color: #faf0ff; /* Warna persegi panjang */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f3566;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -75px auto 30px auto; /* Mengatur margin untuk menarik persegi panjang ke atas */
+}
+.counter {
+  color: #f9f3f3;
+  font-size: 3rem;
+}
+
+.lovebird {
+  font-size: 3rem;
+}
+
+.parallax1 {
+  background-image: url("../img/us/para.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url("../img/us/para2.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg {
+  background-color: #f0e9e9;
+}
+
+.carousel-container {
+  width: 20%; /* Ubah sesuai kebutuhan */
+  margin: 0 auto; /* Agar carousel berada di tengah */
+}
+
+.parallax3 {
+  background-image: url("../img/us/para3.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  background-image: url("../img/us/para4.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  background-image: url("../img/us/para5.png");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer{
+  background-color: #faf0ff;
+}
